@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Catálogo de Ropa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- todo HEADER -->
+  <header>
+    <div class="container-header">
+        <div class="container-header-des">
+            <div class="container-header-support">
+                <i class="fa-solid fa-headset"></i>
+                <div class="container-customer-support">
+                    <span class="text"> Soporte al Cliente</span>
+                    <span class="number">+54 9 3644 189469</span>
+                </div>
+            </div>
+
+            <div class="container-logo">
+                <h1 class="logo"><a href="/">ExclusivaByMaga</a></h1>
+            </div>
+
+            <div class="container-user">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="user-shopping-cart">
+                    <span class="text">Carrito</span>
+                    <span class="number">(0)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-navbar">
+        <nav class="navbar">
+            <i class="fa-solid fa-bars"></i>
+            <ul class="navbar-list">
+            <li class="navbar-item"><a href="#" class="navbar-link">Inicio</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Tienda</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Ofertas</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Contacto</a></li>
+            <li class="navbar-item"><a href="#" class="navbar-link">Sobre Nosotros</a></li>
+            </ul>
+            <form class="navbar-form">
+                <input type="search" placeholder="Buscar Productos...">
+                <button class="navbar-form-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </nav>
+    </div>
+    </header>
+
+    <!-- todo BANNER -->
+
+    <section class="banner">
+        <div class="content-banner">
+            <p>ExclusivaByMaga</p>
+            <h2>Explorá tu lado más provocador</h2>
+            <a href="#">Descubrí la colección</a>
+        </div>
+    </section>
+    <main class="main-content">
+        <!-- TODO SECCION CARACTERISTICAS -->
+
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-plane"></i>
+                <div class="feature-content">
+                    <span>Envios gratuito a nivel mundial</span>
+                    <p>En pedido superior a $150</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                <div class="feature-content">
+                    <span>Contrareembolso</span>
+                    <p>100% garantia de devolucion</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feature-content">
+                    <span>Tarjeta de regalo</span>
+                    <p>Ofrece bonos especiales de regalo</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                <div class="feature-content">
+                    <span>Servicio al cliente 24/7</span>
+                    <p>llamenos 24/7 al 123-3234-2334</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TODO SECCION PRODUCTOS -->
+
+        <!-- <section class="container top-categories">
+            <h1 class="heading-1">Mejores Categorias</h1>
+            <div class="container-categories">
+                <div class="card-category category-moca">
+                    <p>Cafe Moca</p>
+                    <span>Ver mas</span>
+                </div>
+                <div class="card-category category-expreso">
+                    <p>Cafe expreso</p>
+                    <span>Ver mas</span>
+                </div>
+                <div class="card-category category-capuchino">
+                    <p>Cafe capuchino</p>
+                    <span>Ver mas</span>
+                </div>
+            </div>
+        </section> -->
+        <section class="container top-products">
+            <h1 class="heading-1">Mejores Productos</h1>
+
+            <!-- <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Mas recientes</span>
+                <span>Mejores Vendidos</span>
+            </div> -->
+
+            <div class="container-products">
+
+                <!-- PRODUCTO 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-1-1.jpg" alt="Producto sin imagen">
+                        <!-- <span class="discount">-13%</span> -->
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3> 5 piezas compuesto por bralette de cadena con bordado de llamas</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 2 -->
+                 <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-2-1.jpg" alt="Producto sin imagen">
+                        <!-- <span class="discount">-13%</span> -->
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>2 piezas Conjunto con contraste de malla</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 3 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-3-1.webp" alt="Producto sin imagen">
+                        <!-- <span class="discount">-13%</span> -->
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>4 piezas Conjunto de lencería sexy blanca de encaje</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 4 -->
+                 <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-4-1.webp" alt="Producto sin imagen">
+                        <!-- <span class="discount">-13%</span> -->
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>5 piezas/Conjunto Lencería sexy</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--TODO  SECCION GALERIA -->
+
+        <section class="gallery">
+            <img src="/fotos/Gallery/gallery-5.webp" alt="galerry img1" class="gallery-img-1">
+            <img src="/fotos/Gallery/C_1.jpg" alt="galerry img2" class="gallery-img-2">
+            <img src="/fotos/Gallery/gallery-4.jpg" alt="galerry img3" class="gallery-img-3">
+            <img src="/fotos/Gallery/C_2.jpg" alt="galerry img4" class="gallery-img-4">
+            <img src="/fotos/Gallery/C_3.jpg" alt="galerry img5" class="gallery-img-5">
+        </section>
+
+        <!--TODO SPECIALS -->
+
+        <section class="container specials">
+            <h1 class="heading-1">Productos en Oferta</h1>
+
+            <div class="container-products">
+
+                <!-- PRODUCTO 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-5-1.jpg" alt="Producto sin imagen">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>3 piezas de lencería sexy de mujer que incluye un vestido de encaje con soporte, liguero desmontable y tanga</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 2 -->
+                 <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-6-1.jpg" alt="Producto sin imagen">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3> 4 piezas, incluyendo sujetador bordado, bragas, liguero y liguero para la pierna</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 3 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-7-1.jpg" alt="Producto sin imagen">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3> 4 piezas Set de lencería con encaje floral con aro con liga</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 4 -->
+                 <div class="card-product">
+                    <div class="container-img">
+                        <img src="/fotos/Productos/producto-8-1-.jpg" alt="Producto sin imagen">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3> Sujetador con encaje sexy con cierre frontal y diseño de huecos</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$40.000 <span>$45.000</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TODO BLOGS -->
+        <section class="container blogs">
+        <h1 class="heading-1">Ultimos Post </h1>
+
+        <div class="container-blogs">
+
+
+            <div class="card-blog">
+                <div class="container-img">
+                    <img src="/Fotos/Blog/Blog-1.jpg" alt="Imagen del blog">
+                    <div class="button-group-blog">
+                        <a href="https://www.instagram.com/p/DKAlc39yhfB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.instagram.com/p/DKAlc39yhfB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="content-blog">
+                    <h3>New Set Fire 5 Piezas ❤️‍🔥</h3>
+                    <span>23 de Mayo 2025</span>
+                    <p>
+                        Conjunto de lencería para mujeres de 5 piezas/set con cadena metálica, bordado rojo, sujetador sin espalda, liguero y tanga con anillo para la pierna
+                        <br>
+                        Disponible talle 85/90 95 y 100✨
+                    </p>
+                    <a href="https://www.instagram.com/p/DKAlc39yhfB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                    <div class="btn-read-more">
+                        leer mas
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-blog">
+                <div class="container-img">
+                    <img src="/Fotos/Blog/Blog-2.jpg" alt="Imagen del blog">
+                    <div class="button-group-blog">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-blog">
+                    <h3>New Set Chloe 😍</h3>
+                    <span>21 de Mayo 2025</span>
+                    <p>
+                        Set de 2 piezas Conjunto de mujer con contraste de malla, look minimalista, sexy y transparente con bordado.
+                        <br>
+                        Último disponible talle 95✨
+                    </p>
+                    <a href="https://www.instagram.com/p/DKAlc39yhfB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                    <div class="btn-read-more">
+                        leer mas
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-blog">
+                <div class="container-img">
+                    <img src="/Fotos/Blog/Blog-3.jpg" alt="Imagen del blog">
+                    <div class="button-group-blog">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-link"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-blog">
+                    <h3>New Set Gotic 🖤</h3>
+                    <span>23 de Mayo</span>
+                    <p>
+                        Conjunto de lencería con arnés de patente con detalle de aro en O, portaligas gótico.
+                        <br>
+                        <br>
+                        Talles disponibles 85/90 95 y 100✨
+                    </p>
+                    <a href="https://www.instagram.com/p/DKAlc39yhfB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                    <div class="btn-read-more">
+                        leer mas
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!--TODO FOOTER -->
+        <footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 71 Pennington Lane Vernon Rockville, CT
+								06066
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: baristas@support.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Programación para el mundo &copy; 2022
+					</p>
+
+					<img src="img/payment.png" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+    </main>
+    
+    
+    
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
