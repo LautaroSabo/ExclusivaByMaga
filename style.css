@@ -1086,7 +1086,28 @@ background-color: var(--color1);
 }
 
 
-
+@media (max-width: 375px ){
+    html {
+        font-size: 37.5%;
+    }
+    .container-header-des{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container-header-support{
+        display: none;
+    }
+    .container-user{
+        display: none;
+    }
+    .container-header-des .text{
+        font-size: 1.2rem;
+    }
+    .container-header-des .number{
+        font-size: 1.2rem;
+    }
+    
+}
 
 
 
