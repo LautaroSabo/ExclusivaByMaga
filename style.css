@@ -992,11 +992,26 @@ background-color: var(--color1);
 	}
 
 	.container-blogs {
-		overflow: hidden;
+		/* overflow: hidden;
 		grid-template-columns: 1fr 1fr;
+		height: 52rem; */
 
-		height: 52rem;
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 2rem;
+        padding: 1rem;
 	}
+
+    .card-blog{
+        flex: 0 0 90%;
+        scroll-snap-align: center;
+        min-width: 28rem;
+    }
+
+    .container-blogs::-webkit-scrollbar {
+    display: none; /* saca barra fea en Chrome */
+  }
 
 	.menu-footer {
 		grid-template-columns: repeat(2, 1fr);
