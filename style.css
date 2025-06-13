@@ -1083,7 +1083,7 @@ background-color: var(--color1);
 
 	.container-blogs {
 		grid-template-columns: 1fr;
-		height: 108rem;
+		height: 100rem;
 	}
 
 	.content-blog h3 {
