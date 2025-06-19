@@ -984,7 +984,7 @@ background-color: var(--color1);
 	}
 
 	.container-products {
-		grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr));
 	}
 
 	.gallery {
